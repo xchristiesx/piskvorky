@@ -1,1 +1,71 @@
+body {
+  background-image: linear-gradient(to bottom, #615dad, #ffc8da);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  margin: 0%;
+}
 
+.container {
+  max-width: 380px;
+  margin: 60px auto;
+  display: block;
+}
+
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  font-family: 'Lobster', cursive;
+}
+
+.obsah {
+  background-color: #283e50;
+  color: #ffffff;
+  line-height: 1.5;
+  text-align: center;
+  padding: 5%;
+  width: 90%;
+
+}
+
+.pravidla {
+  background-color: #1fcca4;
+  padding: 10px 20px;
+  position: relative;
+  color: white;
+}
+
+.začít {
+  background-color: #0197f6;
+  padding: 10px 20px;
+  position: relative;
+  color: white
+}
+
+.buttons--active {
+  display: inline-block;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  border-width: 18px
+}
+
+img {
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+  display: block;
+  overflow: clip;
+  size: 400px;
+  overflow: clip;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

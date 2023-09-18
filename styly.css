@@ -11,6 +11,7 @@ body {
   max-width: 380px;
   margin: 60px auto;
   display: block;
+  margin-top: 10vw;
 }
 
 
@@ -26,6 +27,7 @@ h1 {
   text-align: center;
   padding: 5%;
   width: 90%;
+  margin: 0;
 
 }
 
@@ -34,23 +36,37 @@ h1 {
   padding: 10px 20px;
   position: relative;
   color: white;
+  border-bottom: none;
+
 }
 
 .začít {
   background-color: #0197f6;
   padding: 10px 20px;
   position: relative;
-  color: white
+  color: white;
+  border-bottom: none;
+
 }
 
-.buttons--active {
+.buttons {
   display: inline-block;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  text-decoration: none;
   width: 100%;
+  padding: 18px 0%;
   font-size: 17px;
-  border-width: 18px
+  color: white;
+  margin: 0;
+  padding: 0%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 img {
@@ -60,6 +76,7 @@ img {
   overflow: clip;
   size: 400px;
   overflow: clip;
+  width: 100%;
 }
 
 p {

@@ -1,0 +1,93 @@
+body {
+  background-image: linear-gradient( #615dad,  #ffc8da);
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  color: white;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pole {
+  width: 400px;
+  max-width: 80vmin;
+  height: 500px;  
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+}
+
+.hraje {
+  margin-bottom: 35px;
+}  
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;  
+  
+}
+
+button {
+   height: 40px;
+  width: 40px;
+  border: 1px solid black;   
+  background: linear-gradient(#cdb4dc7c, #f0e9ec);
+  
+}
+
+.tlacitka {
+  height: 30px;
+  width: 28px;
+  border: solid;
+  border-radius: 5px;
+ padding: 8px;
+ border: none;
+ margin: 5px;
+ position: relative;
+ left: 163px;
+ top: 8px;
+
+
+}
+
+.tlacitko__home {
+background-color:#1fcca4;
+}
+
+.tlacitko__restart {
+  background-color: #0197f6;
+  
+}
+
+.circle {
+  margin-bottom: 13px;
+  margin-left: 7px;
+}
+
+button:hover {
+background-color:white;
+}
+
+.tlacitko__home:hover {
+  background-color:#1cbb96;
+  }
+
+.tlacitko__restart:hover {
+      background-color: #0090e9;
+      
+  }

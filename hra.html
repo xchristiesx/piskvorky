@@ -1,130 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Piškvorky</title>
-    <link rel="stylesheet" type="text/css" href="hra.css" />
+    <link rel="stylesheet" type="text/css" href="style-hra.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap"rel="stylesheet"/>
-    <script type="module" src="index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="hra.js"></script>
+
+    <title>Piškvorky</title>
   </head>
-
   <body>
-    <div class="pole">
-      <h1 class="title">Piškvorky</h1>
-      <h2 class="hraje">HRAJE:</h2>
-      <img id="circle__player" class="circle" src="Obrázky/circle.svg" />
 
+  <div class="container">
+    
+    <header>
+      
+            <h1>Piškvorky</h1>
 
-      <a href="index.html"><img class="tlacitka tlacitko__home" src="Obrázky/home.svg"/></a>
-      <a href="hra.html"><img class="tlacitka tlacitko__restart" src="Obrázky/restart.svg"/></a>
+    <div class="uvod">
 
-      <div class="buttons">
-        <button class="game__button" id="button__1"></button>
-        <button class="game__button" id="button__2"></button>
-        <button class="game__button" id="button__3"></button>
-        <button class="game__button" id="button__4"></button>
-        <button class="game__button" id="button__5"></button>
-        <button class="game__button" id="button__6"></button>
-        <button class="game__button" id="button__7"></button>
-        <button class="game__button" id="button__8"></button>
-        <button class="game__button" id="button__9"></button>
-        <button class="game__button" id="button__10"></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-      </div>
+            
+
+            <div class="uvod__circle">
+            <p>HRAJE:</p>
+            <img id="hraje__img" src="img/circle.svg" alt="Kroužek">
+           </div>
+        
+            <div class="uvod__btn">
+              <a class="btn__home" href="index.html"><img src="img/home.svg" alt="Domů"></a>
+              <a class="btn__restart"href="hra.html"><img src="img/restart.svg" alt="Restart"></a>
+            </div>
+
     </div>
+    
+    </header>
+
+        <div class="board">
+          <button class="btn btn1"></button>
+          <button class="btn btn2"></button>
+          <button class="btn btn3"></button>
+          <button class="btn btn4"></button>
+          <button class="btn btn5"></button>
+          <button class="btn btn6"></button>
+          <button class="btn btn7"></button>
+          <button class="btn btn8"></button>
+          <button class="btn btn9"></button>
+          <button class="btn btn10"></button>
+          <button class="btn btn11"></button>
+          <button class="btn btn12"></button>
+          <button class="btn btn13"></button>
+          <button class="btn btn14"></button>
+          <button class="btn btn15"></button>
+          <button class="btn btn16"></button>
+          <button class="btn btn17"></button>
+          <button class="btn btn18"></button>
+          <button class="btn btn19"></button>
+          <button class="btn btn20"></button>
+
+          <button class="btn btn21"></button>
+          <button class="btn btn22"></button>
+          <button class="btn btn23"></button>
+          <button class="btn btn24"></button>
+          <button class="btn btn25"></button>
+          <button class="btn btn26"></button>
+          <button class="btn btn27"></button>
+          <button class="btn btn28"></button>
+          <button class="btn btn29"></button>
+          <button class="btn btn30"></button>
+          <button class="btn btn31"></button>
+          <button class="btn btn32"></button>
+          <button class="btn btn33"></button>
+          <button class="btn btn34"></button>
+          <button class="btn btn35"></button>
+          <button class="btn btn36"></button>
+          <button class="btn btn37"></button>
+          <button class="btn btn38"></button>
+          <button class="btn btn39"></button>
+          <button class="btn btn40"></button>
+
+          <button class="btn btn41"></button>
+          <button class="btn btn42"></button>
+          <button class="btn btn43"></button>
+          <button class="btn btn44"></button>
+          <button class="btn btn45"></button>
+          <button class="btn btn46"></button>
+          <button class="btn btn47"></button>
+          <button class="btn btn48"></button>
+          <button class="btn btn49"></button>
+          <button class="btn btn50"></button>
+          <button class="btn btn51"></button>
+          <button class="btn btn52"></button>
+          <button class="btn btn53"></button>
+          <button class="btn btn54"></button>
+          <button class="btn btn55"></button>
+          <button class="btn btn56"></button>
+          <button class="btn btn57"></button>
+          <button class="btn btn58"></button>
+          <button class="btn btn59"></button>
+          <button class="btn btn60"></button>
+
+          <button class="btn btn61"></button>
+          <button class="btn btn62"></button>
+          <button class="btn btn63"></button>
+          <button class="btn btn64"></button>
+          <button class="btn btn65"></button>
+          <button class="btn btn66"></button>
+          <button class="btn btn67"></button>
+          <button class="btn btn68"></button>
+          <button class="btn btn69"></button>
+          <button class="btn btn70"></button>
+          <button class="btn btn71"></button>
+          <button class="btn btn72"></button>
+          <button class="btn btn73"></button>
+          <button class="btn btn74"></button>
+          <button class="btn btn75"></button>
+          <button class="btn btn76"></button>
+          <button class="btn btn77"></button>
+          <button class="btn btn78"></button>
+          <button class="btn btn79"></button>
+          <button class="btn btn80"></button>
+
+          <button class="btn btn81"></button>
+          <button class="btn btn82"></button>
+          <button class="btn btn83"></button>
+          <button class="btn btn84"></button>
+          <button class="btn btn85"></button>
+          <button class="btn btn86"></button>
+          <button class="btn btn87"></button>
+          <button class="btn btn88"></button>
+          <button class="btn btn89"></button>
+          <button class="btn btn90"></button>
+          <button class="btn btn91"></button>
+          <button class="btn btn92"></button>
+          <button class="btn btn93"></button>
+          <button class="btn btn94"></button>
+          <button class="btn btn95"></button>
+          <button class="btn btn96"></button>
+          <button class="btn btn97"></button>
+          <button class="btn btn98"></button>
+          <button class="btn btn99"></button>
+          <button class="btn btn100"></button>
+  </div>
   </body>
 </html>

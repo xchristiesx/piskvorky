@@ -1,0 +1,102 @@
+html {
+  font-family: sans-serif;
+  color: #ffffff;
+  background-image: linear-gradient(#615dad, #ffc8da);
+  line-height: 1.5rem;
+  height: 100%;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+
+
+}
+
+
+.conteiner {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.uvodni-foto {
+  width: 100%;
+}
+
+.uvodni-foto img {
+  width: 100%;
+  display: block;
+  border-radius: 5px 5px 0 0;
+}
+
+.obsah {
+  background-color: #283e50;
+  width: 100%;
+
+}
+
+.obsah__nadpis {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 2.2rem;
+
+}
+
+.obsah__text {
+
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+.tlacitka {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+
+
+}
+
+.tlacitko {
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+  border: 0;
+  font-family: sans-serif;
+
+}
+
+.tlacitko__pravidla {
+  background-color: #1fcca4;
+}
+
+.tlacitko__pravidla:hover {
+
+  background-color: #1cbb96;
+}
+
+.tlacitko__hrat {
+  background-color: #0197f6;
+
+}
+
+.tlacitko__hrat:hover {
+  background-color: #0090e9;
+
+}
